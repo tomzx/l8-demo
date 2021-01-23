@@ -24,6 +24,9 @@ You can run the tests using `PHPUnit`
 vendor/bin/phpunit
 ```
 
+# API
+You may test the API through your browser by heading to the root of the web application (e.g., http://localhost:8000). The documentation is generated using the [Swagger/OpenAPI specification](https://swagger.io/solutions/getting-started-with-oas/) in `resources/views/swagger/definition.blade.php`. For the moment this documentation is manually maintained to reflect the code but may be automatically generated in the future.
+
 # Docker
 To easily get started if you only have docker available, you can make use of the `Dockerfile` provided.
 
