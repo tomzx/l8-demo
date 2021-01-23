@@ -33,5 +33,9 @@ jobs:
           command: |
             composer install --prefer-dist --no-interaction --no-progress
 
+    - name: Prepare environment
+      run: |
+        touch database/database.sqlite
+
     - name: Run tests
       run: vendor/bin/phpunit
