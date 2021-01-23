@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Services;
+namespace Unit\Tests\Services;
 
 use App\Services\PalindromeService;
 use PHPUnit\Framework\TestCase;
